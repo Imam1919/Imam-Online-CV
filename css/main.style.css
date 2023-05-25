@@ -76,7 +76,10 @@ section{
 }
 .home-img img{
     width: 35vw;
+    border-radius: 40%;
     animation: floatImage 4s ease-in-out infinite;
+    border: 1px solid #0ef;
+    box-shadow: 0 1rem 10rem 0 #0ef;
 }
 @keyframes floatImage {
     0%{
@@ -156,6 +159,9 @@ span{
 }
 .about-img img{
     width: 35vw;
+    border-radius: 40%;
+    border: 1px solid #0ef;
+    box-shadow: 0 1rem 10rem 0 #0ef;
 }
 
 .heading{
